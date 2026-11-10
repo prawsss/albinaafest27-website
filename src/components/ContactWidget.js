@@ -11,16 +11,16 @@ export default function ContactWidget() {
     {
       nama: "Rafa (CP Umum)",
       nomor: "085177097401",
-      pesan: "Halo Kak Rafa, saya ingin bertanya mengenai teknis Alfest 2027...",
+      pesan: "Halo Kak Rafa, saya ingin bertanya mengenai Alfest 2027...",
     },
     {
       nama: "Nouval (CP Umum)",
-      nomor: "woilah6282345678901",
+      nomor: "+62 895-2661-1324",
       pesan: "Halo Kak Nouval, saya mau mengonfirmasi terkait Alfest 2027...",
     },
     {
-      nama: "Dzakwan (CP Sponsorship)",
-      nomor: "woilah",
+      nama: "Hasyim (CP Sponsorship)",
+      nomor: "+62 857-7776-5301",
       pesan: "Halo Kak Dzakwan, saya mau bertanya terkait sponsorship Alfest 2027...",
     },
   ];

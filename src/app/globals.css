@@ -47,3 +47,23 @@ body {
 .shadow-card-sand {
   box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 25s linear infinite;
+}
+
+/* Biar kalau di-hover kursor mouse, animasinya berhenti sebentar (opsional) */
+.animate-scroll:hover {
+  animation-play-state: paused;
+}

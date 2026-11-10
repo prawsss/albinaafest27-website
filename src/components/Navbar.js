@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-4 left-0 right-0 z-50 flex justify-center px-4">
-      <nav className="w-full max-w-5xl rounded-4xl bg-linear-to-tl from-[#a08000]/60 to-black/50 backdrop-blur-[4px] shadow-gold-glow px-6 py-3.5 flex items-center justify-between transition-all duration-300">
+      <nav className="w-4xl max-w-5xl rounded-full bg-linear-to-tl from-[#a08000]/60 to-black/50 backdrop-blur-md shadow-gold-glow px-6 py-1 flex items-center justify-between transition-all duration-300">
 
         {/* DESKTOP MENU (Rata Tengah Penuh) */}
         <div className="hidden md:flex items-center justify-center flex-1 gap-3">
@@ -25,19 +25,20 @@ export default function Navbar() {
 
         {/* CTA BUTTON (Desktop) */}
         <div className="hidden md:block">
-          <button
-            href="/competition"
-            className="rounded-full bg-gradient-to-r from-gold to-gold-light px-6 py-4 font-display text-xs font-bold tracking-wider text-[#070913] hover:opacity-95 shadow-[0_0_20px_rgba(212,175,55,0.4)] transition-all uppercase"
-          >
-            Daftar Sekarang
-          </button>
-        </div>
+  <button
+    onClick={() => window.location.href = "/competition"}
+    className="rounded-full bg-linear-to-r from-[#d4af37] to-[#f3e5ab] px-4 py-4 font-display text-xs font-bold tracking-wider text-[#070913] hover:opacity-95 shadow-[0_0_20px_rgba(212,175,55,0.4)] transition-all uppercase cursor-pointer"
+    style={{ fontFamily: "var(--font-display)" }}
+  >
+    Daftar Sekarang
+  </button>
+</div>
 
         {/* MOBILE PILL TOGGLE BUTTON (Di Kanan) */}
         <div className="md:hidden flex items-center justify-end w-full">
           <button 
             onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center gap-2.5 px-4 py-2 rounded-full bg-gold/15 text-gold font-display text-xs font-semibold tracking-wider uppercase shadow-[0_0_15px_rgba(212,175,55,0.2)] active:scale-95 transition-all cursor-pointer"
+            className="flex items-center gap-2.5 px-4 py-2 rounded-full bg-gold/15 text-[#ffffff] font-display text-xs font-semibold tracking-wider uppercase shadow-[0_0_15px_rgba(212,175,55,0.2)] active:scale-95 transition-all cursor-pointer"
             aria-label="Toggle Menu"
           >
             <span>Menu</span>
@@ -70,7 +71,7 @@ export default function Navbar() {
             <Link
               href="/competition"
               onClick={() => setIsOpen(false)}
-              className="block text-center rounded-xl bg-gradient-to-r from-gold to-gold-light px-5 py-3 font-display text-xs font-bold tracking-wider text-[#070913] hover:opacity-95 uppercase shadow-[0_0_20px_rgba(212,175,55,0.4)]"
+              className="block text-center rounded-xl bg-gradient-to-r from-gold to-gold-light px-5 py-3.5 font-display text-xs font-bold tracking-wider text-[#070913] hover:opacity-95 uppercase shadow-[0_0_20px_rgba(212,175,55,0.4)]"
             >
               Daftar Sekarang
             </Link>

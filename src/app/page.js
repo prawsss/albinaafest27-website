@@ -9,7 +9,7 @@ import EventGrid from "../components/EventGrid";
 import GalleryCarousel from "../components/GalleryCarousel";
 
 export default function Home() {
-  const TARGET_DATE = "2027-01-09T00:00:00";
+  const TARGET_DATE = "2027-01-10T00:00:00";
 
   const [timeLeft, setTimeLeft] = useState({
     Hari: "00",
@@ -112,7 +112,7 @@ export default function Home() {
 
         <div className="relative z-10 flex flex-col items-center gap-6 px-4 w-full max-w-4xl pt-16">
           <p className="text-gold text-xs md:text-sm tracking-[0.4em] uppercase font-display font-semibold">
-            WELCOME TO
+            get ready for
           </p>
 
           <div className="select-none">
@@ -172,7 +172,7 @@ export default function Home() {
               COUNTDOWN TO ALBINAA FESTIVAL 2027
             </span>
 
-            <div className="flex gap-4 md:gap-8 bg-linear-to-t from-[#957b00]/40 to-black/50 backdrop-blur-xl border border-white/30 rounded-2xl px-6 py-4 md:px-10 shadow-2xl">
+            <div className="flex gap-4 md:gap-8 bg-linear-to-t from-[#957b00]/40 to-black/50 backdrop-blur-xs border border-white/30 rounded-2xl px-6 py-4 md:px-10 shadow-2xl">
               {[
                 [isMounted ? timeLeft.Hari : "00", "Hari"],
                 [isMounted ? timeLeft.Jam : "00", "Jam"],
@@ -219,7 +219,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2B. YOUTUBE TRAILER SECTION */}
+      {/* 2B. YOUTUBE TRAILER SECTION 
       <section className="relative py-16 px-6">
         <div className="max-w-4xl mx-auto flex flex-col items-center gap-8">
           <div className="text-center">
@@ -239,18 +239,18 @@ export default function Home() {
             ></iframe>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* 2C. OUR SPONSORS SECTION */}
+      {/* 2C. OUR SPONSORS SECTION 
       <section className="relative py-16 px-6">
         <div className="max-w-5xl mx-auto flex flex-col items-center gap-10">
           <div className="text-center">
             <h2 className="font-display text-2xl md:text-3xl font-bold text-text-main tracking-widest uppercase">
-              Our Sponsors
+              Our Partners
             </h2>
             <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mt-4 opacity-60" />
           </div>
-
+      
           <div className="w-full bg-black/30 backdrop-blur-md rounded-3xl border border-gold/20 p-8 md:p-12 shadow-xl flex justify-center items-center overflow-hidden">
             <img
               src="/sponsors_compiled.webp"
@@ -259,10 +259,8 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* 3. OUR EVENTS SECTION */}
-      {/* 3. OUR EVENTS SECTION */}
 {/* 3. OUR EVENTS SECTION */}
       <section className="relative py-24 px-6">
         <div className="max-w-6xl mx-auto flex flex-col items-center gap-16">
@@ -323,10 +321,14 @@ export default function Home() {
           </div>
         </div>
 
-        {/* SEKSI TIMELINE */}
+        {/* SEKSI TIMELINE 
         <div className="w-full mt-20">
+          <h2 className="text-center font-display text-3xl md:text-5xl font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-gold-light via-gold to-yellow-600">
+            Timeline
+            </h2>
           <TimelineEvent /> 
         </div>
+        */}
       </section> 
 
       {/* READY SECTION */}

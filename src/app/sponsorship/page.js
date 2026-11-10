@@ -66,7 +66,7 @@ export default function SponsorshipPage() {
     <div className="min-h-screen bg-slate-950 text-slate-100 py-16 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="max-w-7xl px-4 mx-auto text-center">
         {/* HEADER */}
-        <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-amber-300 to-yellow-500 mb-4 py-[30, 0]">
+        <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-amber-300 to-yellow-500 mb-4 pt-20">
           SPONSORSHIP AND PARTNERSHIP OPPORTUNITIES
         </h1>
         <p className="text-slate-400 max-w-2xl mx-auto text-base md:text-lg mb-10">
