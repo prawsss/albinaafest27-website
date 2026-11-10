@@ -249,20 +249,20 @@ export default function CompetitionsPage() {
                 <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:animate-[shine_0.8s_ease-in-out] transform-gpu" />
               </a>
             </div>
-
-            <a
-            href="https://www.instagram.com/albinaafestival/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-amber/10 hover:bg-white/20 backdrop-blur-md text-sand border border-gold/60 px-8 py-3.5 rounded-full font-display font-semibold tracking-wider uppercase text-xs cursor-pointer transition-all duration-300 transform hover:scale-105 inline-block text-center"
-            >
-              Instagram
-            </a>
+<a
+  href="https://www.instagram.com/albinaafestival"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-amber/10 hover:bg-white/20 backdrop-blur-md text-sand border border-gold/60 px-8 py-3.5 rounded-full font-display font-semibold tracking-wider uppercase text-xs cursor-pointer transition-all duration-300 transform hover:scale-105 inline-block text-center"
+>
+  Instagram
+</a>
+          </div>
 
           <p className="text-[10px] text-color-muted/60 tracking-widest uppercase mt-4 font-sans">
             * Silakan unduh atau baca buku panduan sebelum mengisi formulir
           </p>
-        </div></div>
+        </div>
 
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 opacity-40 z-10">
           <span className="text-[10px] md:text-xs tracking-[0.3em] uppercase text-color-gold-light font-sans font-medium">
