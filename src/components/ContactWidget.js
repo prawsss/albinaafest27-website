@@ -19,7 +19,7 @@ export default function ContactWidget() {
       pesan: "Halo Kak Nouval, saya mau mengonfirmasi terkait Alfest 2027...",
     },
     {
-      nama: "Hasyim (CP Sponsorship)",
+      nama: "Dzakwan (CP Sponsorship/Partnership)",
       nomor: "+62 857-7776-5301",
       pesan: "Halo Kak Dzakwan, saya mau bertanya terkait sponsorship Alfest 2027...",
     },
