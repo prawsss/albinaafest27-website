@@ -8,14 +8,14 @@ export default function SponsorCard({ tier }) {
       {/* Bagian Atas Card */}
       <div>
         {/* Info Paket */}
-        <h3 className={`text-2xl font-bold text-left mb-2 ${tier.textColor}`}>{tier.title}</h3>
-        <p className="text-sm text-slate-400 text-left mb-6 leading-relaxed">{tier.desc}</p>
+        <h3 className={`text-2xl font-bold font-sans text-left mb-2 ${tier.textColor}`}>{tier.title}</h3>
+        <p className="text-sm text-slate-400 font-sans text-left mb-6 leading-relaxed">{tier.desc}</p>
         
         <hr className="border-slate-800 my-4" />
 
         {/* List Benefit */}
-        <h4 className="text-xs font-semibold uppercase tracking-wider text-amber-400 text-left mb-3">Fasilitas / Benefit:</h4>
-        <ul className="space-y-2.5 text-left mb-8">
+        <h4 className="text-xs font-semibold fomt-sans uppercase tracking-wider text-amber-400 text-left mb-3">Fasilitas / Benefit:</h4>
+        <ul className="space-y-2.5 text-left font-sans mb-8">
           {tier.benefits.map((benefit, bIndex) => (
             <li key={bIndex} className="text-sm text-slate-300 flex items-start gap-2">
               <span className="text-amber-500 mt-1 shrink-0">✔</span>

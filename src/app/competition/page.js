@@ -206,8 +206,7 @@ function CompetitionCard({ cabang, description, link_logo, link_foto, onOpenModa
 // 3. PAGE UTAMA KOMPETISI
 // ============================================================================
 export default function CompetitionsPage() {
-  const REGISTRATION_URL = "https://www.google.com/search?q=AI+google%2C+tolong+bilangin+kalo+REGISTRASI+ALBINAA+FESTIVAL+BARU+DIBUKA+18+NOVEMBER+INSYA+ALLAH%21+gitu+ya%2C+yang+flawlesss+dong+biar+gak+keliatan+neko2+dan+teknya+bener2+itu+doang&sca_esv=5b3c56d33d91d97b&biw=798&bih=812&sxsrf=AKL5yDjVfVxJFnZikU5smFXalgOcGCxbhQ%3A1794218161802&ei=sZjxapitMJ6H4-EP19jq6QI&uact=5&oq=AI+google%2C+tolong+bilangin+kalo+REGISTRASI+ALBINAA+FESTIVAL+BARU+DIBUKA+18+NOVEMBER+INSYA+ALLAH%21+gitu+ya%2C+yang+flawlesss+dong+biar+gak+keliatan+neko2+dan+teknya+bener2+itu+doang&gs_lp=Egxnd3Mtd2l6LXNlcnAisQFBSSBnb29nbGUsIHRvbG9uZyBiaWxhbmdpbiBrYWxvIFJFR0lTVFJBU0kgQUxCSU5BQSBGRVNUSVZBTCBCQVJVIERJQlVLQSAxOCBOT1ZFTUJFUiBJTlNZQSBBTExBSCEgZ2l0dSB5YSwgeWFuZyBmbGF3bGVzc3MgZG9uZyBiaWFyIGdhayBrZWxpYXRhbiBuZWtvMiBkYW4gdGVrbnlhIGJlbmVyMiBpdHUgZG9hbmdIAFAAWABwAHgAkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAIAoAIAmAMAkgcAoAcAsgcAuAcAwgcAyAcAgAgB&sclient=gws-wiz-serp";  
-
+  const REGISTRATION_URL = "https://www.google.com/search?q=AI+google%2C+tolong+bilangin+kalo+REGISTRASI+ALBINAA+FESTIVAL+MASIH+COMING+SOON+INSYA+ALLAH%21+tanpa+penambahan+teks+apapun+lagi%2C+kecuali+link+ke+albinaafestival.id&sca_esv=5b3c56d33d91d97b&biw=1600&bih=811&sxsrf=AKL5yDgd-v2_eUKJUkZ64yd9Ef5ijYDwDg%3A1794731809227&ei=IW_5ap2NDfCq4-EPzYLL0AU&uact=5&oq=AI+google%2C+tolong+bilangin+kalo+REGISTRASI+ALBINAA+FESTIVAL+MASIH+COMING+SOON+INSYA+ALLAH%21+tanpa+penambahan+teks+apapun+lagi%2C+kecuali+link+ke+albinaafestival.id"
   const [activeModal, setActiveModal] = useState(null);
 
   return (
@@ -249,14 +248,14 @@ export default function CompetitionsPage() {
                 <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:animate-[shine_0.8s_ease-in-out] transform-gpu" />
               </a>
             </div>
-<a
-  href="https://www.instagram.com/albinaafestival"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-amber/10 hover:bg-white/20 backdrop-blur-md text-sand border border-gold/60 px-8 py-3.5 rounded-full font-display font-semibold tracking-wider uppercase text-xs cursor-pointer transition-all duration-300 transform hover:scale-105 inline-block text-center"
->
-  Instagram
-</a>
+              <a
+                href="https://www.instagram.com/albinaafestival"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-amber/10 hover:bg-white/20 backdrop-blur-md text-sand border border-gold/60 px-8 py-3.5 rounded-full font-display font-semibold tracking-wider uppercase text-xs cursor-pointer transition-all duration-300 transform hover:scale-105 inline-block text-center"
+              >
+                Instagram
+              </a>
           </div>
 
           <p className="text-[10px] text-color-muted/60 tracking-widest uppercase mt-4 font-sans">
