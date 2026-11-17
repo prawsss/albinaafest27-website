@@ -182,7 +182,7 @@ export default function PhilanthropyPage() {
           </div>
         </div>
 
-        {/* 5. DONATION METRICS & INTERACTIVE QRIS SECTION 
+        {/* 5. DONATION METRICS & INTERACTIVE QRIS SECTION */}
         <div className="bg-black/50 border border-white/10 rounded-3xl p-6 md:p-8 space-y-6 shadow-[0_10px_30px_-10px_rgba(212,175,55,0.2)] relative backdrop-blur-md">
           <div className="border-b border-white/10 pb-4 text-center md:text-left">
             <h3 className="text-2xl font-bold text-[#d4af37] font-display" style={{ fontFamily: "var(--font-display)" }}>Salurkan Donasi Anda</h3>
@@ -192,9 +192,9 @@ export default function PhilanthropyPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="space-y-4">
               <div className="p-5 rounded-xl bg-white/5 border border-white/10 group hover:border-[#d4af37]/30 transition-all">
-                <p className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Bank Transfer (Bank Syariah Indonesia / BSI)</p>
-                <p className="text-2xl font-black text-slate-100 mt-1.5 tracking-wide group-hover:text-[#f3e5ab] transition-colors">7123 4567 89</p>
-                <p className="text-sm text-slate-400 mt-0.5">a.n. Panitia Albinaa Festival Philanthropy</p>
+                <p className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Bank Transfer (Bank Muamalat)</p>
+                <p className="text-2xl font-black text-slate-100 mt-1.5 tracking-wide group-hover:text-[#f3e5ab] transition-colors">3410 0302 03</p>
+                <p className="text-sm text-slate-400 mt-0.5">a.n. YAYASAN ISLAM AL BINAA JAMTHOL</p>
               </div>
               
               <div className="text-sm text-slate-300 leading-relaxed bg-[#d4af37]/10 p-4 rounded-xl border border-[#d4af37]/20">
@@ -219,7 +219,7 @@ export default function PhilanthropyPage() {
               </p>
             </div>
           </div>
-        </div> */}
+        </div>
 
       </div>
       <ContactWidget />
