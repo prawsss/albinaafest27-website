@@ -4,75 +4,48 @@ import React, { useState, useEffect } from 'react';
 // ==================== DATA CONFIGURATION ====================
 const timelineData = [
   { 
-    name: "Early Bird Regist", 
-    label: "20 Nov - 4 Des", 
-    pos: "col-start-1 col-end-2", 
-    color: "from-amber-600/80 to-amber-800/80 border-gold/40 text-white",
-    imgActive: "/images/early-bird.png",
-    deskripsi: "Pendaftaran gelombang pertama dengan diskon khusus bagi pendaftar awal Alfest 2027. Jangan lewatkan kesempatan slot terbatas ini!",
-    status: "ended"
-  },
-  { 
-    name: "Batch 1 Regist", 
-    label: "4 Des - 27 Des", 
-    pos: "col-start-2 col-end-3", 
-    color: "from-amber-700/80 to-yellow-800/80 border-gold/40 text-white",
-    imgActive: "/images/batch1.png",
-    deskripsi: "Pendaftaran reguler Batch 1 dibuka untuk semua cabang kompetisi Alimpiad Ilmiah, Sports, dan Alimpic.",
-    status: "arrow"
-  },
-  { 
-    name: "Batch 2 Regist", 
-    label: "28 Des - 27 Jan", 
-    pos: "col-start-3 col-end-4", 
-    color: "from-yellow-700/80 to-amber-900/80 border-gold/40 text-white",
-    imgActive: "/images/batch2.png",
-    deskripsi: "Pendaftaran gelombang terakhir (Batch 2). Pastikan seluruh berkas tim sudah lengkap sebelum penutupan.",
-    status: "arrow"
-  },
-  { 
     name: "Technical Meeting", 
     label: "05 Feb", 
     pos: "col-start-4 col-end-5", 
     color: "from-blue-900/80 to-indigo-950/80 border-blue-500/40 text-white",
     imgActive: "/images/tm.png",
-    deskripsi: "Technical Meeting bersama perwakilan seluruh tim untuk membahas regulasi, jadwal tanding, dan pembagian bagan kompetisi.",
+    deskripsi: "Technical Meeting bersama perwakilan seluruh tim secara daring untuk membahas regulasi, jadwal tanding, dan pembagian bagan kompetisi.",
     status: "none"
   },
   { 
     name: "Opening Alfest", 
-    label: "15 Feb", 
+    label: "10 Jan 2027", 
     pos: "col-start-5 col-end-6", 
     color: "from-emerald-900/80 to-teal-950/80 border-emerald-500/40 text-white",
     imgActive: "/images/opening.png",
-    deskripsi: "Upacara pembukaan megah Albinaa Festival 2027. Dimeriahkan oleh penampilan seni, parade kontingen, dan peresmian simbolis.",
+    deskripsi: "Upacara pembukaan megah Albinaa Festival 2027 di Gedung Mustaqbal. Dimeriahkan oleh penampilan seni, parade kontingen, dan peresmian simbolis.",
     status: "none"
   },
   { 
-    name: "Alfest Bazar & Expo", 
-    label: "15 - 19 Feb", 
-    pos: "col-start-5 col-end-10", 
+    name: "Alfest Bazar & Art Exhibition", 
+    label: "10 - 12 Jan", 
+    pos: "col-start-5 col-end-8", 
     color: "from-purple-950/80 to-indigo-950/80 border-purple-500/40 text-white",
     imgActive: "/images/bazar.png",
-    deskripsi: "Festival kuliner, pameran karya, dan stand interaktif yang berjalan selama acara Alfest berlangsung di area utama.",
+    deskripsi: "Festival kuliner, pameran barang antik, lelang karya, dan stand interaktif di Lapangan Aljasadul Wahid selama 3 hari penuh.",
     status: "arrow"
   },
   { 
-    name: "Grand Final Match", 
-    label: "17 Feb", 
-    pos: "col-start-7 col-end-8", 
+    name: "Alimpiad & Alympic Match", 
+    label: "10 - 13 Jan", 
+    pos: "col-start-5 col-end-9", 
     color: "from-red-950/80 to-rose-950/80 border-red-500/40 text-white",
     imgActive: "/images/final.png",
-    deskripsi: "Babak penentuan juara untuk seluruh cabang olahraga dan kompetisi sengit. Datang dan dukung tim jagoanmu!",
-    status: "none"
+    deskripsi: "Pelaksanaan perlombaan utama tingkat nasional baik secara luring maupun daring untuk cabang Olahraga, Ilmiah, dan Alympic SD/SMA.",
+    status: "arrow"
   },
   { 
-    name: "Awarding & Closing", 
-    label: "19 Feb", 
+    name: "Alfest Talk & Closing", 
+    label: "13 Jan 2027", 
     pos: "col-start-9 col-end-10", 
     color: "from-amber-500 to-yellow-600 border-gold text-slate-950 font-semibold",
     imgActive: "/images/closing.png",
-    deskripsi: "Penutupan resmi Alfest 2027 sekaligus malam penganugerahan piala juara umum dan konser penghargaan.",
+    deskripsi: "Talkshow inspiratif bersama guest star (Prof. Zulys, Ulyn Nuha Muslim, Dr. Andy Octavian Latief, Sadam Permana), penutupan resmi, serta penganugerahan piala juara umum.",
     status: "none"
   }
 ];
@@ -81,13 +54,13 @@ const timelineColumns = [
   { label: "20/11 - 4/12" },
   { label: "4/12 - 27/12" },
   { label: "28/12 - 27/1" },
-  { label: "5/2" },
-  { label: "15/2" },
-  { label: "16/2" },
-  { label: "17/2" },
-  { label: "18/2" },
-  { label: "19/2" },
-  { label: "17/3 - 20/3" }
+  { label: "05/02" },
+  { label: "10/01" },
+  { label: "11/01" },
+  { label: "12/01" },
+  { label: "13/01" },
+  { label: "21-22 Apr" },
+  { label: "Ramadhan" }
 ];
 
 export default function TimelineEvent() {
@@ -104,16 +77,11 @@ export default function TimelineEvent() {
     } else if (currentMonth === 12) {
       setTodayPosition('20%');
     } else if (currentMonth === 1) {
-      setTodayPosition('32%');
-    } else if (currentMonth === 2) {
-      if (currentDate <= 5) setTodayPosition('38%');
-      else if (currentDate <= 15) setTodayPosition('48%');
-      else if (currentDate === 16) setTodayPosition('58%');
-      else if (currentDate === 17) setTodayPosition('68%');
-      else if (currentDate === 18) setTodayPosition('78%');
-      else setTodayPosition('88%');
+      setTodayPosition('35%');
+    } else if (currentMonth === 4) {
+      setTodayPosition('85%');
     } else {
-      setTodayPosition('95%');
+      setTodayPosition('50%');
     }
   }, []);
 
@@ -166,7 +134,7 @@ export default function TimelineEvent() {
                     <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/10 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-out pointer-events-none"></div>
 
                     <div className="truncate text-left">
-                      <div className="font-bold text-sm truncate drop-shadow-md tracking-wide">
+                      <div className="font-bold font-sans text-sm truncate drop-shadow-md tracking-wide">
                         {event.name}
                       </div>
                       <div className="text-[11px] opacity-90 font-medium tracking-tight mt-0.5">{event.label}</div>
@@ -197,19 +165,19 @@ export default function TimelineEvent() {
       {/* MODAL DETAIL POPUP */}
       {selectedEvent && (
         <div className="fixed inset-0 bg-black/85 backdrop-blur-md z-50 flex items-center justify-center p-4">
-          <div className="bg-[var(--bg-card)] border-2 border-[var(--gold)] max-w-md w-full rounded-2xl overflow-hidden shadow-[0_0_20px_rgba(0,0,0,0.8)] border-t-[6px] border-t-[var(--gold-light)] animate-in fade-in zoom-in-95 duration-150">
+          <div className="bg-[var(--bg-card)] border border-white/20 max-w-md w-full rounded-2xl overflow-hidden shadow-[0_0_20px_rgba(0,0,0,0.8)] animate-in fade-in zoom-in-95 duration-150">
             
             <div className="w-full h-44 bg-slate-950 relative">
               <img 
                 src={selectedEvent.imgActive} 
                 alt={selectedEvent.name} 
                 className="w-full h-full object-cover opacity-90"
-                onError={(e) => { e.target.src = "/favicon.ico" }}
+                onError={(e) => { e.target.src = "/favicon.png" }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[var(--bg-card)] via-transparent to-black/20"></div>
               
               <div className="absolute bottom-3 left-4 right-4">
-                <span className="text-[10px] font-black text-slate-950 bg-[var(--gold-light)] px-2 py-0.5 rounded border border-[var(--gold)] tracking-wider uppercase">
+                <span className="text-[10px] font-black font-sans text-slate-950 bg-[var(--gold-light)] px-2 py-0.5 rounded border border-[var(--gold)] tracking-wider uppercase">
                   {selectedEvent.label}
                 </span>
                 <h3 className="text-xl font-black mt-1.5 text-[var(--text-main)] tracking-wide drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
@@ -219,15 +187,15 @@ export default function TimelineEvent() {
             </div>
 
             <div className="p-6 text-left">
-              <p className="text-sm text-[var(--text-muted)] leading-relaxed min-h-[70px] border-l-2 border-[var(--gold)] pl-3">
+              <p className="text-sm text-[var(--text-muted)] leading-relaxed min-h-[70px] pl-3">
                 {selectedEvent.deskripsi}
               </p>
               
               <button 
                 onClick={() => setSelectedEvent(null)}
-                className="mt-6 w-full py-3 bg-gradient-to-r from-[var(--gold)] to-[var(--gold-light)] hover:brightness-110 text-slate-950 font-black text-sm rounded-xl shadow-lg border-b-4 border-amber-900 active:scale-[0.98] transition-all tracking-widest text-center uppercase"
+                className="mt-6 w-full py-3 bg-gradient-to-r from-[var(--gold)] to-[var(--gold-light)] hover:brightness-110 text-slate-950 font-black text-sm rounded-xl shadow-lg border-b-4 active:scale-[0.98] transition-all tracking-widest text-center uppercase"
               >
-                KONFIRMASI
+                OK
               </button>
             </div>
 

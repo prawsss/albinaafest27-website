@@ -321,14 +321,13 @@ export default function Home() {
           </div>
         </div>
 
-        {/* SEKSI TIMELINE 
+        {/* SEKSI TIMELINE */}
         <div className="w-full mt-20">
           <h2 className="text-center font-display text-3xl md:text-5xl font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-gold-light via-gold to-yellow-600">
             Timeline
             </h2>
           <TimelineEvent /> 
         </div>
-        */}
       </section> 
 
       {/* READY SECTION */}
