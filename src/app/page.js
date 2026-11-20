@@ -78,7 +78,7 @@ export default function Home() {
     { 
       nama: "Alimpiad ILMIAH", 
       desc: "Kompetisi akademik untuk siswa SMA", 
-      imgKey: "olimpiade_sma",
+      imgKey: "cover_alimpiad",
       sectionId: "alimpiad-sma"
     },
     { 
@@ -90,7 +90,7 @@ export default function Home() {
     { 
       nama: "Alympic", 
       desc: "Kompetisi akademik dan sport untuk siswa SD", 
-      imgKey: "olimpiade_sd",
+      imgKey: "cover_alympic",
       sectionId: "alympic-sd"
     },
   ];
