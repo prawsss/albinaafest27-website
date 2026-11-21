@@ -13,7 +13,7 @@ const lato = Lato({
 })
 
 export const metadata = {
-  title: "Albinaa Festival 2027 | Ajang Kompetisi Pelajar Nasional SD & SMA",
+  title: "Albinaa Festival 2027",
   description: "Website resmi Albinaa Festival 2027. Ikuti berbagai cabang kompetisi bergengsi mulai dari Pidato, Speech, MHQ, MTQ, Science Exhibition, dan masih banyak lagi.",
   keywords: [
     "Albinaa Festival 2027", 
