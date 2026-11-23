@@ -3,7 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import ContactWidget from "../../components/ContactWidget";
-import AlimpiadCard from "../../components/AlimpiadCard"
+import AlimpiadCard from "../../components/AlimpiadCard";
+import PenginapanPrompt from '@/components/PenginapanPrompt';
 
 // ============================================================================
 // 1A. AREA EDIT DATA LOMBA ALIMPIAD
@@ -419,6 +420,7 @@ export default function CompetitionsPage() {
 
       {/* ================= 5. WIDGET KONTAK ================= */}
       <ContactWidget />
+      <PenginapanPrompt />
 
     </main>
   );
