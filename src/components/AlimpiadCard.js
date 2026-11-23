@@ -60,7 +60,7 @@ function AlimpiadCard({ cabang, description, link_foto, delay, onClick }) {
 
 // ================= SECTION UTAMA ALIMPIAD =================
 export default function AlimpiadSection() {
-  const REGISTRATION_URL = "https://tally.so/r/YOUR_ID_HERE";
+  const REGISTRATION_URL = "https://tally.so/r/0Vra6Z";
 
   const alimpiadData = [
     {

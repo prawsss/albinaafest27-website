@@ -191,13 +191,13 @@ export default function PhilanthropyPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="space-y-4">
-              <div className="p-5 rounded-xl bg-white/5 border border-white/10 group hover:border-[#d4af37]/30 transition-all">
+              <div className="p-5 rounded-xl bg-white/5 group hover:border-[#d4af37]/30 transition-all">
                 <p className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Bank Transfer (Bank Muamalat)</p>
                 <p className="text-2xl font-black text-slate-100 mt-1.5 tracking-wide group-hover:text-[#f3e5ab] transition-colors">3410 0302 03</p>
                 <p className="text-sm text-slate-400 mt-0.5">a.n. YAYASAN ISLAM AL BINAA JAMTHOL</p>
               </div>
               
-              <div className="text-sm text-slate-300 leading-relaxed bg-[#d4af37]/10 p-4 rounded-xl border border-[#d4af37]/20">
+              <div className="text-sm text-slate-300 leading-relaxed bg-[#d4af37]/10 p-4 rounded-xl">
                 <span className="font-bold text-[#f3e5ab] block mb-1">💡 Catatan Konfirmasi Penting:</span> 
                 Mohon tambahkan kode unik <span className="text-white font-bold">012</span> di akhir nominal transfer Anda (Contoh: <span className="text-[#f3e5ab] font-bold">Rp 100.012</span>). Kode ini digunakan untuk memisahkan dana pendaftaran lomba umum dengan saldo kemanusiaan baksos.
               </div>
