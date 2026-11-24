@@ -61,7 +61,6 @@ export default function PenginapanPrompt() {
             >
               ✕
             </button>
-
             {/* Badge */}
             <a 
             href="https://maps.app.goo.gl/rzMCC1KU8oAqQ7496"
