@@ -51,7 +51,7 @@ export default function PenginapanPrompt() {
       {/* 1. MODAL / POPUP UTAMA */}
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-md animate-in fade-in duration-200 font-sans">
-          <div className="bg-bg-card border-2 border-gold max-w-md w-full rounded-3xl p-6 md:p-8 shadow-[0_0_30px_rgba(212,175,55,0.25)] relative overflow-hidden text-text-main">
+          <div className="bg-bg-card border-2 border-gold/20 max-w-md w-full rounded-3xl p-6 md:p-8 shadow-[0_0_30px_rgba(212,175,55,0.25)] relative overflow-hidden text-text-main">
             
             {/* Tombol Close / Minimize (X) */}
             <button
@@ -63,9 +63,13 @@ export default function PenginapanPrompt() {
             </button>
 
             {/* Badge */}
-            <span className="inline-block text-[10px] font-bold uppercase tracking-[0.2em] text-slate-950 bg-[var(--gold-light)] px-3 py-1 rounded-full mb-3">
-              Info Akomodasi Peserta
-            </span>
+            <a 
+            href="https://maps.app.goo.gl/rzMCC1KU8oAqQ7496"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-[10px] font-bold uppercase tracking-[0.2em] text-slate-950 bg-[var(--gold-light)] px-3 py-1 rounded-full mb-3">
+              <u>Info Albinaa Inn klik disini‼️</u>
+            </a>
 
             {/* Judul */}
             <h3 className="font-display text-xl md:text-2xl font-bold text-[var(--gold-light)] tracking-wide mb-2">
@@ -74,7 +78,7 @@ export default function PenginapanPrompt() {
 
             {/* Deskripsi */}
             <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-6">
-              Panitia menyediakan fasilitas akomodasi <strong className="text-white">gratis (kuota terbatas 12 kamar)</strong> khusus kontingen Ikhwan dari luar daerah (jarak min. 50 km)[cite: 4]. Cek syarat, fasilitas, dan cara booking-nya sekarang![cite: 4]
+              Panitia menyediakan fasilitas akomodasi <strong className="text-white">gratis (kuota terbatas 12 kamar)</strong> khusus kontingen Ikhwan dari luar daerah (jarak min. 50 km). Cek syarat, fasilitas, dan cara booking-nya sekarang!
             </p>
 
             {/* Tombol Aksi */}
@@ -104,7 +108,6 @@ export default function PenginapanPrompt() {
             href="/competition/akomodasi"
             className="flex items-center gap-2.5 bg-[var(--bg-card)]/95 hover:bg-[var(--bg-card)] text-[var(--gold-light)] border border-[var(--gold)]/60 hover:border-[var(--gold-light)] px-4 py-3 rounded-full shadow-[0_4px_20px_rgba(0,0,0,0.6)] backdrop-blur-md transition-all transform hover:scale-105 group"
           >
-            <span className="text-base">🏨</span>
             <div className="text-left">
               <div className="text-[11px] font-bold uppercase tracking-wider leading-none text-white group-hover:text-[var(--gold-light)] transition-colors">
                 Info Penginapan
