@@ -204,8 +204,8 @@ export default function Home() {
               <h2 className="font-display text-4xl md:text-5xl font-bold text-bg-1 tracking-wide">
                 What's Alfest?
               </h2>
-              <p className="text-slate-700 leading-relaxed text-sm md:text-base font-sans">
-                Albinaa Festival adalah ajang kompetisi bergengsi tingkat nasional yang mempertemukan pelajar tingkat SD dan SMA dari berbagai daerah di Indonesia. Bertujuan untuk menjadi sarana bagi para siswa mengasah potensi, menguji ketangkasan, memupuk jiwa sportivitas, serta membangun iklim kompetisi yang sehat dan islami.
+              <p className="text-slate-700 text-justify leading-relaxed text-sm md:text-base font-sans">
+                Albinaa Festival adalah ajang kompetisi <strong className="font-bold text-[#111]">untuk siswa laki–laki</strong> bergengsi tingkat nasional yang mempertemukan pelajar tingkat SD dan SMA dari berbagai daerah di Indonesia. Bertujuan untuk menjadi sarana bagi para siswa mengasah potensi, menguji ketangkasan, memupuk jiwa sportivitas, serta membangun iklim kompetisi yang sehat dan islami.
               </p>
               <p className="font-display text-amber-900 text-2xl md:text-3xl font-bold italic">
                 "Chase the Gold, Shine the World"
