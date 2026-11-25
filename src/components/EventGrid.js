@@ -9,7 +9,7 @@ export default function EventGrid() {
       nama: "Talkshow", 
       desc: "Sesi inspiratif bersama pembicara tamu untuk mengupas tuntas tren industri kreatif saat ini.", 
       imgKey: "talkshow",
-      guest: "Prof. Agustino Zulys, M.Sc"
+      guest: "INSYAALLAH Prof. Agustino Zulys, M.Sc"
     },
     { 
       nama: "Bazaar", 
