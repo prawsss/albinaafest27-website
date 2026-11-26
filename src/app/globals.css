@@ -67,3 +67,25 @@ body {
 .animate-scroll:hover {
   animation-play-state: paused;
 }
+
+@keyframes starTwinkle {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+/* Kelas Efek Bintang Kelap-Kelip */
+.twinkle-star-1 {
+  animation: starTwinkle 3s ease-in-out infinite;
+}
+.twinkle-star-2 {
+  animation: starTwinkle 4.5s ease-in-out infinite 1s;
+}
+.twinkle-star-3 {
+  animation: starTwinkle 6s ease-in-out infinite 2s;
+}

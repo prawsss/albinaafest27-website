@@ -103,7 +103,7 @@ export default function TimelineEvent() {
             className="absolute top-0 bottom-0 w-0.5 bg-gradient-to-b from-[var(--gold-light)] via-[var(--gold)] to-transparent pointer-events-none z-30 shadow-[0_0_15px_var(--gold-light)] flex flex-col items-center transition-all duration-1000"
           >
             <div className="w-3 h-3 rounded-full bg-[var(--gold-light)] border-2 border-white shadow-[0_0_10px_white] animate-ping"></div>
-            <div className="bg-[var(--gold)] text-[9px] text-slate-950 font-extrabold px-2 py-0.5 rounded shadow-lg mt-1 whitespace-nowrap tracking-wider border border-[var(--gold-light)]">
+            <div className="bg-[var(--gold)] text-[9px] text-slate-950 font-sans font-bold px-2 py-0.5 rounded shadow-lg mt-1 whitespace-nowrap tracking-wider border border-[var(--gold-light)]">
               LIVE NOW
             </div>
           </div>

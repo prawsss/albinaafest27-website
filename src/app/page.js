@@ -98,6 +98,59 @@ export default function Home() {
   return (
     <main className="min-h-screen w-full text-text-main relative">
       
+      {/* 🌟 BACKGROUND BINTANG KELAP-KELIP (MENUTUPI SELURUH HALAMAN DI LAPISAN PALING BELAKANG) */}
+      {/* 🌟 BACKGROUND BINTANG KELAP-KELIP (RAMAI & MENUTUPI SELURUH HALAMAN) */}
+      <div className="fixed inset-0 pointer-events-none z-[-2] overflow-hidden">
+        {/* Kelompok Bintang 1 */}
+        <div className="absolute top-[4%] left-[8%] w-1.5 h-1.5 bg-violet-400 rounded-full shadow-[0_0_8px_rgba(168,85,247,0.8)] twinkle-star-1"></div>
+        <div className="absolute top-[8%] left-[25%] w-2 h-2 bg-amber-300 rounded-full shadow-[0_0_10px_rgba(252,211,77,0.8)] twinkle-star-2"></div>
+        <div className="absolute top-[6%] left-[45%] w-1 h-1 bg-blue-300 rounded-full shadow-[0_0_6px_rgba(147,197,253,0.8)] twinkle-star-3"></div>
+        <div className="absolute top-[3%] left-[68%] w-2 h-2 bg-purple-400 rounded-full shadow-[0_0_9px_rgba(192,132,252,0.8)] twinkle-star-1"></div>
+        <div className="absolute top-[9%] left-[92%] w-1.5 h-1.5 bg-yellow-200 rounded-full shadow-[0_0_8px_rgba(254,240,138,0.8)] twinkle-star-2"></div>
+
+        {/* Kelompok Bintang 2 */}
+        <div className="absolute top-[18%] left-[15%] w-2 h-2 bg-violet-300 rounded-full shadow-[0_0_9px_rgba(196,181,253,0.8)] twinkle-star-2"></div>
+        <div className="absolute top-[22%] left-[35%] w-1 h-1 bg-amber-200 rounded-full shadow-[0_0_6px_rgba(253,230,138,0.8)] twinkle-star-3"></div>
+        <div className="absolute top-[16%] left-[55%] w-1.5 h-1.5 bg-blue-400 rounded-full shadow-[0_0_8px_rgba(96,165,250,0.8)] twinkle-star-1"></div>
+        <div className="absolute top-[20%] left-[80%] w-2 h-2 bg-violet-400 rounded-full shadow-[0_0_10px_rgba(168,85,247,0.8)] twinkle-star-3"></div>
+
+        {/* Kelompok Bintang 3 */}
+        <div className="absolute top-[32%] left-[5%] w-1.5 h-1.5 bg-purple-300 rounded-full shadow-[0_0_8px_rgba(216,180,254,0.8)] twinkle-star-3"></div>
+        <div className="absolute top-[28%] left-[22%] w-2 h-2 bg-yellow-300 rounded-full shadow-[0_0_10px_rgba(253,224,71,0.8)] twinkle-star-1"></div>
+        <div className="absolute top-[34%] left-[50%] w-1 h-1 bg-violet-400 rounded-full shadow-[0_0_6px_rgba(168,85,247,0.8)] twinkle-star-2"></div>
+        <div className="absolute top-[30%] left-[70%] w-2 h-2 bg-amber-400 rounded-full shadow-[0_0_10px_rgba(251,191,36,0.8)] twinkle-star-3"></div>
+        <div className="absolute top-[36%] left-[88%] w-1.5 h-1.5 bg-blue-300 rounded-full shadow-[0_0_8px_rgba(147,197,253,0.8)] twinkle-star-1"></div>
+
+        {/* Kelompok Bintang 4 */}
+        <div className="absolute top-[45%] left-[12%] w-1 h-1 bg-yellow-200 rounded-full shadow-[0_0_6px_rgba(254,240,138,0.8)] twinkle-star-1"></div>
+        <div className="absolute top-[42%] left-[28%] w-2 h-2 bg-violet-400 rounded-full shadow-[0_0_10px_rgba(168,85,247,0.8)] twinkle-star-2"></div>
+        <div className="absolute top-[48%] left-[60%] w-1.5 h-1.5 bg-purple-300 rounded-full shadow-[0_0_8px_rgba(216,180,254,0.8)] twinkle-star-3"></div>
+        <div className="absolute top-[44%] left-[82%] w-1 h-1 bg-amber-300 rounded-full shadow-[0_0_6px_rgba(252,211,77,0.8)] twinkle-star-1"></div>
+
+        {/* Kelompok Bintang 5 */}
+        <div className="absolute top-[58%] left-[8%] w-2 h-2 bg-blue-400 rounded-full shadow-[0_0_10px_rgba(96,165,250,0.8)] twinkle-star-2"></div>
+        <div className="absolute top-[54%] left-[40%] w-1.5 h-1.5 bg-violet-300 rounded-full shadow-[0_0_8px_rgba(196,181,253,0.8)] twinkle-star-3"></div>
+        <div className="absolute top-[60%] left-[75%] w-2 h-2 bg-yellow-400 rounded-full shadow-[0_0_10px_rgba(250,204,21,0.8)] twinkle-star-1"></div>
+
+        {/* Kelompok Bintang 6 */}
+        <div className="absolute top-[68%] left-[18%] w-1 h-1 bg-purple-400 rounded-full shadow-[0_0_6px_rgba(192,132,252,0.8)] twinkle-star-3"></div>
+        <div className="absolute top-[72%] left-[32%] w-2 h-2 bg-amber-200 rounded-full shadow-[0_0_10px_rgba(253,230,138,0.8)] twinkle-star-1"></div>
+        <div className="absolute top-[66%] left-[52%] w-1.5 h-1.5 bg-violet-400 rounded-full shadow-[0_0_8px_rgba(168,85,247,0.8)] twinkle-star-2"></div>
+        <div className="absolute top-[70%] left-[85%] w-1 h-1 bg-blue-300 rounded-full shadow-[0_0_6px_rgba(147,197,253,0.8)] twinkle-star-3"></div>
+
+        {/* Kelompok Bintang 7 */}
+        <div className="absolute top-[82%] left-[10%] w-1.5 h-1.5 bg-yellow-300 rounded-full shadow-[0_0_8px_rgba(253,224,71,0.8)] twinkle-star-2"></div>
+        <div className="absolute top-[78%] left-[45%] w-2 h-2 bg-violet-300 rounded-full shadow-[0_0_10px_rgba(196,181,253,0.8)] twinkle-star-3"></div>
+        <div className="absolute top-[84%] left-[65%] w-1 h-1 bg-purple-400 rounded-full shadow-[0_0_6px_rgba(192,132,252,0.8)] twinkle-star-1"></div>
+        <div className="absolute top-[80%] left-[92%] w-2 h-2 bg-amber-400 rounded-full shadow-[0_0_10px_rgba(251,191,36,0.8)] twinkle-star-2"></div>
+
+        {/* Kelompok Bintang 8 */}
+        <div className="absolute top-[92%] left-[22%] w-1 h-1 bg-blue-400 rounded-full shadow-[0_0_6px_rgba(96,165,250,0.8)] twinkle-star-3"></div>
+        <div className="absolute top-[95%] left-[38%] w-1.5 h-1.5 bg-violet-400 rounded-full shadow-[0_0_8px_rgba(168,85,247,0.8)] twinkle-star-1"></div>
+        <div className="absolute top-[90%] left-[58%] w-2 h-2 bg-yellow-200 rounded-full shadow-[0_0_10px_rgba(254,240,138,0.8)] twinkle-star-2"></div>
+        <div className="absolute top-[96%] left-[78%] w-1 h-1 bg-purple-300 rounded-full shadow-[0_0_6px_rgba(216,180,254,0.8)] twinkle-star-3"></div>
+      </div>
+
       {/* 1. HERO SECTION */}
       <div className="relative h-screen w-full flex flex-col items-center justify-center text-center overflow-hidden z-10">
         <Image
@@ -193,7 +246,7 @@ export default function Home() {
         </div>
       </div>
       
-      {/* 2. ABOUT SECTION (Menggunakan Card Sand Terang / Foreground Kontras) */}
+      {/* 2. ABOUT SECTION */}
       <section id="tentang-kami" className="relative py-28 px-6 md:px-12 z-20">
         <div className="max-w-6xl mx-auto rounded-[2.5rem] bg-sand text-bg-1 p-8 md:p-16 shadow-card-sand">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -205,7 +258,7 @@ export default function Home() {
                 What's Alfest?
               </h2>
               <p className="text-slate-700 text-justify leading-relaxed text-sm md:text-base font-sans">
-                Albinaa Festival adalah ajang kompetisi <strong className="font-bold text-[#111]">untuk siswa laki–laki</strong> bergengsi tingkat nasional yang mempertemukan pelajar tingkat SD dan SMA dari berbagai daerah di Indonesia. Bertujuan untuk menjadi sarana bagi para siswa mengasah potensi, menguji ketangkasan, memupuk jiwa sportivitas, serta membangun iklim kompetisi yang sehat dan islami.
+                Albinaa Festival adalah ajang kompetisi bergengsi <strong className="font-bold text-[#111]">untuk siswa laki–laki</strong> tingkat nasional yang mempertemukan pelajar tingkat SD dan SMA dari berbagai daerah di Indonesia. Bertujuan untuk menjadi sarana bagi para siswa mengasah potensi, menguji ketangkasan, memupuk jiwa sportivitas, serta membangun iklim kompetisi yang sehat dan islami.
               </p>
               <p className="font-display text-amber-900 text-2xl md:text-3xl font-bold italic">
                 "Chase the Gold, Shine the World"
@@ -219,50 +272,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2B. YOUTUBE TRAILER SECTION 
-      <section className="relative py-16 px-6">
-        <div className="max-w-4xl mx-auto flex flex-col items-center gap-8">
-          <div className="text-center">
-            <p className="text-gold text-xs font-display tracking-[0.3em] uppercase mb-2">Official Media</p>
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-text-main">
-              Albinaa Festival Trailer
-            </h2>
-          </div>
-          
-          <div className="w-full aspect-video rounded-3xl overflow-hidden border border-gold/30 shadow-2xl bg-black/40 backdrop-blur-xl">
-            <iframe
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/t_D1HQrHCFg"
-              title="Alfest Official Trailer"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-      </section> */}
-
-      {/* 2C. OUR SPONSORS SECTION 
-      <section className="relative py-16 px-6">
-        <div className="max-w-5xl mx-auto flex flex-col items-center gap-10">
-          <div className="text-center">
-            <h2 className="font-display text-2xl md:text-3xl font-bold text-text-main tracking-widest uppercase">
-              Our Partners
-            </h2>
-            <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mt-4 opacity-60" />
-          </div>
-      
-          <div className="w-full bg-black/30 backdrop-blur-md rounded-3xl border border-gold/20 p-8 md:p-12 shadow-xl flex justify-center items-center overflow-hidden">
-            <img
-              src="/sponsors_compiled.webp"
-              alt="Alfest Event Sponsors"
-              className="w-full h-auto object-contain max-h-48 md:max-h-64 filter brightness-90 contrast-125"
-            />
-          </div>
-        </div>
-      </section> */}
-
-{/* 3. OUR EVENTS SECTION */}
-      <section className="relative py-24 px-6">
+      {/* 3. OUR EVENTS SECTION */}
+      <section className="relative py-24 px-6 z-20">
         <div className="max-w-6xl mx-auto flex flex-col items-center gap-16">
           <div className="text-center">
             <p className="text-gold text-xs font-display tracking-[0.3em] uppercase mb-2">Championship Categories</p>
@@ -278,19 +289,15 @@ export default function Home() {
                 className="relative w-full h-96 rounded-3xl overflow-hidden group cursor-pointer bg-[#0d1322] shadow-[0_10px_30px_-10px_rgba(0,0,0,0.5)] transition-all duration-500 hover:scale-[1.03] hover:shadow-[0_0_35px_rgba(212,175,55,0.3)]"
               >
                 <Link href={`/competition#${event.sectionId}`} className="block w-full h-full relative z-0">
-                  {/* Background Image dengan efek transparan halus */}
                   <img 
                     src={`/${event.imgKey}.webp`}
                     alt={event.nama}
                     className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-50 group-hover:scale-110 transition-all duration-700"
                     onError={(e) => { e.currentTarget.style.display = 'none'; }}
                   />
-                  {/* Gradien Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[#070913] via-[#070913]/70 to-transparent" />
                   
-                  {/* Konten Card */}
                   <div className="absolute inset-0 flex flex-col items-center justify-end p-8 z-10 text-center gap-4">
-                    {/* Logo / Icon Bulat dengan efek Glow */}
                     <div className="w-16 h-16 rounded-full bg-gold/10 flex items-center justify-center overflow-hidden backdrop-blur-md shadow-[0_0_15px_rgba(212,175,55,0.2)] mb-2 group-hover:shadow-[0_0_25px_rgba(212,175,55,0.5)] transition-all duration-300">
                       <img 
                         src={`/logo_${event.imgKey}.png`} 
@@ -325,19 +332,14 @@ export default function Home() {
         <div className="w-full mt-20">
           <h2 className="text-center font-display text-3xl md:text-5xl font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-gold-light via-gold to-yellow-600">
             Timeline
-            </h2>
+          </h2>
           <TimelineEvent /> 
         </div>
       </section> 
 
-      {/* READY SECTION */}
-      <div className="select-none text-center py-16">
-        <h2 className="font-display text-3xl md:text-5xl font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-gold-light via-gold to-yellow-600">
-          READY FOR ALBINAA FESTIVAL?
-        </h2>
-      </div>
-
       <ContactWidget />
+      {/* 🌫️ OVERLAY BLUR DI BAGIAN BAWAH */}
+      <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-[var(--bg-main)] via-[var(--bg-main)]/60 to-transparent backdrop-blur-md pointer-events-none z-[-1]" />
     </main>
   );
 }
