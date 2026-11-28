@@ -77,7 +77,7 @@ export default function PenginapanPrompt() {
 
             {/* Deskripsi */}
             <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-6">
-              Panitia menyediakan fasilitas akomodasi <strong className="text-white">gratis (kuota terbatas 12 kamar)</strong> khusus kontingen Ikhwan dari luar daerah (jarak min. 50 km). Cek syarat, fasilitas, dan cara booking-nya sekarang!
+              Panitia menyediakan fasilitas akomodasi <strong className="text-white">(kuota terbatas 12 kamar)</strong> khusus kontingen Ikhwan dari luar daerah (jarak min. 50 km). Cek syarat, fasilitas, dan cara booking-nya sekarang!
             </p>
 
             {/* Tombol Aksi */}

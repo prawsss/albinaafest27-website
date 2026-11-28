@@ -246,6 +246,10 @@ export default function TwibbonPage() {
           </button>
         </div>
       </div>
+
+      <p className="text-md text-center text-neutral-600 mt-8">
+          ingin membuat twibbon untuk event anda, murah dan tanpa watermark?<br/>hubungi <strong className="text-[#111]">@xoseno</strong> di instagram!
+      </p>
     </main>
   );
 }

@@ -39,10 +39,6 @@ export default function PenginapanPage() {
           <ul className="space-y-4 text-base md:text-lg leading-relaxed text-justify">
             <li className="flex gap-4 items-start">
               <span className="text-(--gold-dark) font-bold">▪</span>
-              <div>Seluruh fasilitas penginapan <strong className="font-bold text-[#111]">tidak dikenakan biaya</strong>, namun setiap kerusakan pada fasilitas menjadi tanggung jawab pengguna untuk mengganti rugi.</div>
-            </li>
-            <li className="flex gap-4 items-start">
-              <span className="text-(--gold-dark) font-bold">▪</span>
               <div>Prioritas alokasi penginapan diberikan kepada kontingen sekolah yang berdomisili atau <strong className="font-bold text-[#111]">berjarak minimal 50 km</strong> dari lokasi kegiatan.</div>
             </li>
             <li className="flex gap-4 items-start">
